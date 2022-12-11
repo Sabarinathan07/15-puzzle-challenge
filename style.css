@@ -11,12 +11,14 @@ body{
     align-items: center;
     flex-direction: column;
 }
-
+.topic{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin: 20px;
+}
 .game {
-    /* position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
     background-color: rgb(1, 54, 85);
     padding:  15px;
@@ -64,8 +66,6 @@ body{
 .footer button:hover{
     color: #FFE32C;
     background-color: rgb(1, 54, 85);
-    
-    
     border: 2px solid #FFE32C;
 }
 
@@ -79,6 +79,20 @@ body{
 }
 
 .message{
-    color:  tomato;
+    color: rgb(1, 54, 85);
     height: 80px;
+}
+.instruction-head{
+    font-size: 2rem;
+    font-weight: bold;
+    /* color: rgb(1, 54, 85); */
+    color:white;
+    text-align: center;
+    margin: 20px;
+}
+.instruction{
+    font-size: 1.5rem;
+    color: rgba(0, 147, 233, 1);
+    text-align: center;
+    margin: 20px;
 }
